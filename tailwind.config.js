@@ -12,10 +12,7 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        sans: ["'Source Sans Pro'", "sans-serif"],
-        playfair: ["Playfair Display", "serif"],
-      },
-      fontFamily: {
+        sans: ["Source Sans Pro", "sans-serif"],
         playfair: ["Playfair Display", "serif"],
       },
     },

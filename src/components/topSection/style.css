@@ -1,0 +1,51 @@
+/* Small Mobile Devices (320px and up) */
+@media (max-width: 375px) {
+  .Main {
+    width: 100%;
+    height: 490px;
+    padding: 16px;
+    background: yellow; /* This should turn the background yellow on small screens */
+    border: 5px solid red; /* Add a red border to the .Main for testing */
+  }
+
+  .Main img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 5px solid green; /* Add a green border to the image */
+  }
+
+  .Overlay {
+    position: absolute;
+    inset: 0;
+    height: 70px;
+    background: white;
+    border: 5px solid blue; /* Add a blue border to the overlay */
+  }
+}
+
+/* Medium Mobile Devices (376px and up) */
+@media (min-width: 376px) and (max-width: 414px) {
+  .Main {
+    width: 100%;
+    height: 490px;
+    padding: 16px;
+    background: purple; /* This should turn the background purple */
+    border: 5px solid yellow; /* Add a yellow border */
+  }
+
+  .Main img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 5px solid orange; /* Add an orange border to the image */
+  }
+
+  .Overlay {
+    position: absolute;
+    inset: 0;
+    height: 70px;
+    background: white;
+    border: 5px solid pink; /* Add a pink border to the overlay */
+  }
+}
