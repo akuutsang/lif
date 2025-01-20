@@ -5,25 +5,24 @@ function Services() {
   return (
     <div>
       <>
-        <div className="h-[1048px] w-full flex flex-col justify-center bg-[#ECFDF5]">
-          <div className="w-[1232px] h-[117px] pt-4 text-black flex flex-col justify-center items-center">
+        <div className="md:h-full md:w-full flex flex-col justify-center bg-[#ECFDF5]">
+          <div className="md:w-[1232px] md:h-[117px]  py-6 w-full text-black flex flex-col justify-center items-center">
             <p className="font-playfair font-[150px] text-[24px] ">
               Our Services
             </p>
-            <p className="h-[64px] w-[800px] font-playfair font-[85px] text-center">
+            <p className="md:h-[64px] md:w-[800px] font-playfair md:font-[85px] w-[358px] text-center">
               Explore LIF service options which is revolutionizing Agricultural
               practices and shaping the future of food production.
             </p>
           </div>
-
-          <div className="flex justify-center">
-            <div className="w-[1100px] grid grid-cols-3 gap-8 px-20 items-center ">
+          <div className="flex justify-center items-center  md:w-[1232px] h-full w-full">
+            <div className="w-[1100px] grid grid-cols-2 md:grid-cols-3   items-center">
               {Card.map((cards) => (
                 <div
                   key={cards.title}
-                  className="w-[300.67px] font-playfair  h-[405px] flex flex-col bg-white text-[#000000] rounded-[20px] justify-between p-5 gap-2"
+                  className=" w-[300px] font-playfair h-[405px]  flex flex-col md:bg-white text-[#000000] rounded-[20px] justify-between md:p-5 p-4"
                 >
-                  <p className="text-[24px] h-[43px] font-playfair  font-[65px] text-center">
+                  <p className="text-[24px] h-[43px] font-playfair font-[65px] text-center">
                     {cards.title}
                   </p>
                   <div className="h-[250px] w-full">

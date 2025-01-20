@@ -10,7 +10,7 @@ function Choose() {
         </p>
         <div className=" w-full flex   justify-center">
           <div className="w-[750px]  flex justify-center gap-4 ">
-            <div className="w-[610px] h-[562px]  ">
+            <div className="w-[610px] h-[562px]">
               <img
                 src="/images/Frame39.png"
                 alt="farmer"
