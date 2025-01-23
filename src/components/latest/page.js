@@ -4,12 +4,12 @@ function LifLatest() {
   return (
     <>
       {" "}
-      <div className="bg-[#ECFDF5] w-full h-[429px] flex justify-center items-center">
-        <div className="w-[750px] h-[160px] bg-[#74451F]  rounded-[15px] flex flex-col justify-center items-center  gap-4 ">
-          <p className="py-3 font-[600] font-playfair line-[42px] ">
+      <div className=" w-full h-[429px] flex justify-center items-center bg-[#ECFDF5]">
+        <div className="w-full h-[160px] bg-[#74451F]  rounded-[15px] flex flex-col justify-center items-center  gap-4  md:mx-[150px]">
+          <p className="w-full py-3 font-[600] font-playfair line-[42px] flex justify-center">
             Get the Latest LIF update by subscribing to our News Letter
           </p>
-          <div className="relative w-[543px] pb-8 ">
+          <div className="relative pb-8 w-[46%] ">
             <label
               htmlFor="inputField"
               className="block text-gray-700  items-center  font-bold mb-2"

@@ -3,12 +3,12 @@ import { AgricItems } from "../data";
 
 function Agric() {
   return (
-    <div className="w-full bg-[#ECFDF5] text-black">
+    <div className="w-full text-black bg-[#ECFDF5]">
       <div className="flex justify-center items-center h-[50px] font-playfair font-[500] text-[32px]">
         <p>Agricultural Sustainability</p>
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row md:gap-6 gap-4 w-full md:w-[750px] mx-auto pt-3 px-8 ">
+      <div className="flex flex-col-reverse md:flex-row md:gap-6 gap-4 w-full pt-3  px-[150px]">
         <div className="flex flex-col gap-4 md:w-1/2 w-full justify-center items-center ">
           <div className="bg-[#40984440] rounded-[10px]  md:full w-full p-3 ">
             <div className="flex justify-between items-center mb-4 md:w-full ">
@@ -54,7 +54,7 @@ function Agric() {
           <img
             src="/images/Frame38.png"
             alt="Plant"
-            className="w-full h-[450px] object-cover rounded-[10px]"
+            className="w-full md:h-[604px] object-cover rounded-[10px]"
           />
         </div>
       </div>

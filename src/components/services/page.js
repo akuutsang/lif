@@ -5,7 +5,7 @@ function Services() {
   return (
     <div>
       <>
-        <div className="md:h-full md:w-full flex flex-col justify-center bg-[#ECFDF5] px-6">
+        <div className="md:h-full md:w-full flex flex-col justify-center bg-[#ECFDF5]">
           <div className="md:w-[1232px] md:h-[117px]  py-6 w-full text-black flex flex-col justify-center items-center">
             <p className="font-playfair font-[150px] text-[24px] ">
               Our Services
@@ -20,9 +20,9 @@ function Services() {
               {Card.map((cards) => (
                 <div
                   key={cards.title}
-                  className=" w-[300px] font-playfair  flex flex-col md:bg-white text-[#000000] justify-between md:p-5 p-2 "
+                  className=" w-[300px] font-playfair  flex flex-col md:bg-white text-[#000000] justify-between md:p-5 p-2 bg-amber-400"
                 >
-                  <div className="rounded-[10px] bg-white">
+                  <div className="bg-red-400 gap-4">
                     <p className="text-[24px] h-[43px] font-playfair font-[65px] text-center ">
                       {cards.title}
                     </p>
