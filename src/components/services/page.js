@@ -15,14 +15,14 @@ function Services() {
               practices and shaping the future of food production.
             </p>
           </div>
-          <div className="flex justify-center items-center  md:w-[1232px] h-full w-full">
-            <div className="w-[1100px] grid grid-cols-2 md:grid-cols-3 justify-center  items-center rounded-[20px]">
+          <div className="flex justify-center items-center  md:h-full w-full  h-full ">
+            <div className="md:w-[70%] grid grid-cols-2 md:grid-cols-3 md:gap-8 justify-center items-center rounded-[20px] w-full p-2  ">
               {Card.map((cards) => (
                 <div
                   key={cards.title}
-                  className=" w-[300px] font-playfair  flex flex-col md:bg-white text-[#000000] justify-between md:p-5 p-2 bg-amber-400"
+                  className=" md:w-[300px] font-playfair  flex flex-col text-[#000000] justify-between md:p-5 "
                 >
-                  <div className="bg-red-400 gap-4">
+                  <div className="bg-white md:gap-2  rounded-[10px]  md:py-1 md:p-2 md:h-[404px] py-8 h-[450px] m-1 ">
                     <p className="text-[24px] h-[43px] font-playfair font-[65px] text-center ">
                       {cards.title}
                     </p>
@@ -33,7 +33,7 @@ function Services() {
                         className="w-full h-[250px] object-cover pb-3"
                       />
                       <div className="md:w-full  flex justify-center ">
-                        <p className="md:font-[400] h-[150px]  w-[80%]  font-sans text-center text-s leading-[20.11px]">
+                        <p className="md:font-[400] md:h-[90px] h-[120px]  md:w-full w-[80%] font-sans text-center text-xs leading-[20.11px]">
                           {cards.text}
                         </p>
                       </div>

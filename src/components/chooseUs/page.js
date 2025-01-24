@@ -9,7 +9,7 @@ function Choose() {
           Why choose us
         </p>
         <div className=" w-full flex justify-center">
-          <div className="md:w-[750px]  flex md:flex-row justify-center md:gap-4 w-full px-6  flex-col">
+          <div className="md:w-[750px]  flex md:flex-row justify-center md:gap-4 w-full px-2  flex-col">
             <div className="md:w-[610px] md:h-[562px]">
               <img
                 src="/images/Frame39.png"

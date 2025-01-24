@@ -3,8 +3,9 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <footer className="bg-[#FFFFFF] pt-[50px] h-[403px] w-full flex justify-center">
-        <div className="w-[800px] text-black">
+      <footer className=" pt-[50px] h-[403px] w-full flex flex-row justify-center  bg-blue-700">
+        {/* bg-[#FFFFFF] */}
+        <div className="md:w-[800px] w-full  text-black ">
           <div className="flex justify-between pb-8 text-[13px] font-sans">
             <div className="h-[251px] flex flex-col justify-between">
               <p className=" ">LIF Team</p>
