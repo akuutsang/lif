@@ -3,79 +3,82 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <footer className=" pt-[50px] h-[403px] w-full flex flex-row justify-center  bg-blue-700">
-        {/* bg-[#FFFFFF] */}
-        <div className="md:w-[800px] w-full  text-black ">
-          <div className="flex justify-between pb-8 text-[13px] font-sans">
-            <div className="h-[251px] flex flex-col justify-between">
-              <p className=" ">LIF Team</p>
-              <p>12 Apex Plaza, Hill Station Roundabout , Jos, Nigeria</p>
-              <div>
-                <p>Reach Us At:</p>
-                <p>+234 81 353 155 32</p>
-                <p> info@lif.com</p>
+      <footer className="pt-[50px] w-full flex flex-col justify-center before: text-black bg-white ">
+        <div className="md:px-[150px] mx-3">
+          <div className="w-full  ">
+            <div className="w-full h-full flex md:flex-row flex-col justify-between pb-8 md:text-[13px] text-[20px] font-sans">
+              <div className="h-[251px] flex flex-col justify-between">
+                <p>LIF Team</p>
+                <p>12 Apex Plaza, Hill Station Roundabout, Jos, Nigeria</p>
+                <div>
+                  <p>Reach Us At:</p>
+                  <p>+234 81 353 155 32</p>
+                  <p>info@lif.com</p>
+                </div>
+                <div className="flex w-full h-[50px]  items-center my-2  gap-6">
+                  <div className="h-[30px] bg-[#FFFFFF] flex justify-center items-center md:p-1 ">
+                    <img
+                      src="/assets/icons/facebook.png"
+                      alt="facebook"
+                      className="w-[15px] h-[15px]"
+                    />
+                  </div>
+                  <div className="h-[30px] bg-[#FFFFFF] flex justify-center items-center md:p-1 ">
+                    <img
+                      src="/assets/icons/instagram.png"
+                      alt="instagram"
+                      className="w-[15px] h-[15px]"
+                    />
+                  </div>
+                  <div className="h-[30px] bg-[#FFFFFF] flex justify-center items-center md:p-1 ">
+                    <img
+                      src="/assets/icons/x.png"
+                      alt="x"
+                      className="w-[15px] h-[15px]"
+                    />
+                  </div>
+                  <div className="h-[30px] bg-[#FFFFFF] flex justify-center items-center md:p-1 ">
+                    <img
+                      src="/assets/icons/linkedin.png"
+                      alt="linkedin"
+                      className="w-[15px] h-[15px]"
+                    />
+                  </div>
+                  <div className="h-[30px] bg-[#FFFFFF] flex justify-center items-center md:p-1">
+                    <img
+                      src="/assets/icons/youtube.png"
+                      alt="youtube"
+                      className="w-[15px] h-[15px]"
+                    />
+                  </div>
+                </div>
               </div>
-              <div className="flex w-[130px]">
-                <div className="h-[30px] bg-[#FFFFFF] flex justify-center items-center p-1">
-                  <img
-                    src="/assets/icons/facebook.png "
-                    alt="plant"
-                    className="w-[15px] h-[15px] "
-                  />
+              <div className="flex md:flex-row">
+                <div className="h-[152px] w-[180px] flex flex-col justify-between">
+                  <p>Support</p>
+                  <p>FAQ</p>
+                  <p>Careers</p>
+                  <p>Blog</p>
                 </div>
-                <div className="h-[30px] bg-[#FFFFFF] flex justify-center items-center p-1">
-                  <img
-                    src="/assets/icons/instagram.png "
-                    alt="plant"
-                    className="w-[15px] h-[15px] "
-                  />
-                </div>
-                <div className="h-[30px] bg-[#FFFFFF] flex justify-center items-center p-1">
-                  {" "}
-                  <img
-                    src="/assets/icons/x.png "
-                    alt="plant"
-                    className="w-[15px] h-[15px] "
-                  />
-                </div>
-                <div className="h-[30px] bg-[#FFFFFF] flex justify-center items-center p-1">
-                  <img
-                    src="/assets/icons/linkedin.png "
-                    alt="plant"
-                    className="w-[15px] h-[15px]"
-                  />
-                </div>
-                <div className="h-[30px] bg-[#FFFFFF] flex justify-center items-center p-1">
-                  {" "}
-                  <img
-                    src="/assets/icons/youtube.png "
-                    alt="plant"
-                    className="w-[15px] h-[15px] "
-                  />
+                <div className="h-[152px] w-[180px] flex flex-col justify-between">
+                  <p>Privacy Policy</p>
+                  <p>Return Policy</p>
+                  <p>Terms of Service</p>
+                  <p>Contact</p>
                 </div>
               </div>
             </div>
-            <div className="h-[152px] w-[180px] flex flex-col justify-between">
-              <p>FAQ</p>
-              <p>Support</p>
-              <p>Careers</p>
-              <p>Blog</p>
+            <div>
+              <hr className="border-black" />
             </div>
-            <div className="h-[152px] w-[180px] flex flex-col justify-between">
-              <p>Privacy Policy</p>
-              <p>Return Policy</p>
-              <p>Terms of Service</p>
-              <p>Contact</p>
-            </div>
-          </div>
-          <div>
-            <hr />
-          </div>
-          <div className=" flex justify-between h-[70px] items-center text-[12px]">
-            <p>© 2024 LIF. All rights reserved.</p>
-            <div className="w-[180px] flex justify-between ">
-              <p>Privacy Policy</p>
-              <p>Terms of Service</p>
+            <div className="mt-4 md:mt-0">
+              <div className="w-full flex justify-between h-[70px] items-center md:text-[12px] text-[20px] bg-inherit">
+                <p>© 2024 LIF. All rights reserved.</p>
+                <div className="w-[180px] justify-between hidden md:flex">
+                  <p>Privacy Policy</p>
+                  <p>Terms of Service</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
