@@ -4,8 +4,8 @@ import { Item } from "../data";
 function Choose() {
   return (
     <>
-      <div className="w-full bg-[#ECFDF5] pb-6">
-        <p className="font-[550] text-xl text-[#000000] flex justify-center w-full mb-[30px] h-[43px] gap-9 items-center ">
+      <div className="w-full bg-[#ECFDF5] py-[100px]">
+        <p className="font-[550] text-xl text-[#000000] flex justify-center w-full mb-[30px] h-[43px] gap-9 items-center font-playfair">
           Why choose us
         </p>
         <div className=" w-full flex justify-center">
@@ -14,10 +14,10 @@ function Choose() {
               <img
                 src="/images/Frame39.png"
                 alt="farmer"
-                className="w-full h-[450px] object-cover rounded-[35px] pb-4"
+                className="w-full h-[450px] object-cover rounded-[10px] rounded-b-[25px] pb-4"
               />
             </div>
-            <div className=" md:w-[700px] md:h-[450px] bg-[#40984440] w-full rounded-[10px] flex flex-col justify-center items-center">
+            <div className=" md:w-[700px] md:h-[430px] bg-[#40984440] w-full rounded-[10px] flex flex-col justify-center items-center">
               <div className="w-[90%] md:h-[395px] md:my-4 ">
                 {Item.map((items) => (
                   <div key={items.name}>
